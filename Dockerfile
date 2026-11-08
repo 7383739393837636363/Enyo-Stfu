@@ -4,9 +4,8 @@ RUN apt-get update -qq && apt-get install -y -qq build-essential pkg-config libc
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm install
-
 COPY . .
+
+RUN npm install
 
 CMD ["npm", "start"]

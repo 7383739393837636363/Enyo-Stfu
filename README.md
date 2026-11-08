@@ -2,12 +2,18 @@
 
 Personal Messenger Automation Engine
 
-""GitHub" (https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)" (https://github.com/7383739393837636363/Enyo-Stfu)
-""Developer" (https://img.shields.io/badge/Developer-Siam%20Ahmed%20Saan-7000FF?style=for-the-badge)" (https://github.com/7383739393837636363)
-""Node.js" (https://img.shields.io/badge/Node.js-22.x-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)" (https://nodejs.org/)
-""License" (https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)" (#license)
-
-Not Coded to Impress — Coded to Express.
+<a href="https://github.com/7383739393837636363/Enyo-Stfu">
+<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
+</a>
+<a href="https://github.com/7383739393837636363">
+<img src="https://img.shields.io/badge/Developer-Siam%20Ahmed%20Saan-7000FF?style=for-the-badge" />
+</a>
+<a href="https://nodejs.org/">
+<img src="https://img.shields.io/badge/Node.js-22.x-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+</a>
+<a href="#license">
+<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
+</a>Not Coded to Impress — Coded to Express.
 
 </div>---
 
@@ -26,7 +32,7 @@ The project focuses on customization, stability, performance, and a personalized
 - 🎯 Event handling and management
 - 🛠️ Custom command support
 - 🔧 Configurable bot settings
-- 🌐 Dashboard integration (if enabled in the project)
+- 🌐 Dashboard integration
 - 📦 Modular command structure
 - 🔄 Custom maintenance and updates
 
@@ -65,8 +71,6 @@ Add the required account/session information and administrator settings where su
 
 5. Start the Bot
 
-Use the start script configured in "package.json".
-
 npm start
 
 ⚙️ Requirements
@@ -82,22 +86,34 @@ npm start
 SAAN EXHAUSTED/
 │
 ├── bot/
+│   ├── handler/
 │   └── login/
-│       └── login.js
 │
 ├── dashboard/
 │
+├── database/
+│   ├── connectDB/
+│   ├── controller/
+│   └── models/
+│
+├── func/
+│
+├── languages/
+│
+├── logger/
+│
 ├── scripts/
-│   └── cmds/
+│   ├── cmds/
+│   ├── events/
+│   └── postinstall.js
 │
-├── config/
-│
-├── package.json
-├── package-lock.json
+├── config.json
+├── configCommands.json
 ├── Goat.js
+├── index.js
+├── package.json
+├── restoreBackup.js
 └── README.md
-
-Actual directory structure may vary depending on the repository version.
 
 🔧 Customization
 
@@ -116,19 +132,19 @@ Always check the existing configuration before changing project settings.
 
 🌐 Connect With Me
 
-<div align="center">""GitHub" (https://img.shields.io/badge/GitHub-7383739393837636363-181717?style=for-the-badge&logo=github)" (https://github.com/7383739393837636363)
-
-""Instagram" (https://img.shields.io/badge/Instagram-siam__exists-E4405F?style=for-the-badge&logo=instagram&logoColor=white)" (https://www.instagram.com/siam_exists/)
-
-""YouTube" (https://img.shields.io/badge/YouTube-saan--exists-FF0000?style=for-the-badge&logo=youtube&logoColor=white)" (https://www.youtube.com/@saan-exists)
-
-""TikTok" (https://img.shields.io/badge/TikTok-saan.16-000000?style=for-the-badge&logo=tiktok)" (https://www.tiktok.com/@saan.16)
-
-""Facebook" (https://img.shields.io/badge/Facebook-Siam%20Ahmed%20Saan-1877F2?style=for-the-badge&logo=facebook&logoColor=white)" (https://www.facebook.com/siam.ahmed.491801)
-
-""Telegram" (https://img.shields.io/badge/Telegram-saansupremacy-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)" (https://t.me/saansupremacy)
-
-</div>⚠️ Disclaimer
+<div align="center"><a href="https://github.com/7383739393837636363">
+<img src="https://img.shields.io/badge/GitHub-7383739393837636363-181717?style=for-the-badge&logo=github" />
+</a><a href="https://www.instagram.com/siam_exists/">
+<img src="https://img.shields.io/badge/Instagram-siam__exists-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a><a href="https://www.youtube.com/@saan-exists">
+<img src="https://img.shields.io/badge/YouTube-saan--exists-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+</a><a href="https://www.tiktok.com/@saan.16">
+<img src="https://img.shields.io/badge/TikTok-saan.16-000000?style=for-the-badge&logo=tiktok" />
+</a><a href="https://www.facebook.com/siam.ahmed.491801">
+<img src="https://img.shields.io/badge/Facebook-Siam%20Ahmed%20Saan-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+</a><a href="https://t.me/saansupremacy">
+<img src="https://img.shields.io/badge/Telegram-saansupremacy-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
+</a></div>⚠️ Disclaimer
 
 This project is provided for educational and personal automation purposes.
 
@@ -152,5 +168,7 @@ Designed & Maintained by
 Not Coded to Impress — Coded to Express.
 
 <a href="https://github.com/7383739393837636363/Enyo-Stfu">
-  <img src="https://img.shields.io/badge/Explore%20Repository-SAAN%20EXHAUSTED-7000FF?style=for-the-badge&logo=github" />
-</a></div>
+<img src="https://img.shields.io/badge/Explore%20Repository-SAAN%20EXHAUSTED-7000FF?style=for-the-badge&logo=github" />
+</a><br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D001A,50:7000FF,100:00D9FF&height=120&section=footer" width="100%"/></div>
